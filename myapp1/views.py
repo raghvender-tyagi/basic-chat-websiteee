@@ -17,7 +17,7 @@ def index(request):
 
 def count(request):
    words= request.GET['text']
-   word2=words+" wlcome ji"
+   word2=words+" wlcome ji chnaged"
    print(word2)
    
    return render(request,'count.html',{'word2':word2})
